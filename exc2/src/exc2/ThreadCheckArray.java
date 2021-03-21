@@ -1,18 +1,18 @@
 package exc2;
-//import java.util.ArrayList;
+import java.util.ArrayList;
 public class ThreadCheckArray implements Runnable 
 {
 	private boolean flag;
 	private boolean [] winArray;
 	SharedData sd;
-	int[] array;
+	//int[] array;
 	//Array<Integer> array
-//	ArrayList<Integer> array = new ArrayList<Integer>();
+	ArrayList<Integer> array = new ArrayList<Integer>();
 	int b;
 	
 	public ThreadCheckArray(SharedData sd) 
 	{
-		int i=0;
+
 		this.sd = sd;	
 		synchronized (sd) 
 		{
