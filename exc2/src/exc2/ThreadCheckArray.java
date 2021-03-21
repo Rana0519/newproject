@@ -9,7 +9,7 @@ public class ThreadCheckArray implements Runnable
 	//Array<Integer> array
 	ArrayList<Integer> array = new ArrayList<Integer>();
 	int b;
-	
+	/////////////
 	public ThreadCheckArray(SharedData sd) 
 	{
 
