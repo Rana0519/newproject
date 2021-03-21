@@ -2,7 +2,12 @@ package exc2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class TestThreadCheckArray {
+
+
+	
+	
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
@@ -12,7 +17,7 @@ public class TestThreadCheckArray {
 			System.out.println("Enter numbers for array");
 			
 			for (int index = 0; index < num; index++) 
-				array.set(index, input.nextInt());
+				array.add(input.nextInt());
 			
 			System.out.println("Enter number");
 			num = input.nextInt();
